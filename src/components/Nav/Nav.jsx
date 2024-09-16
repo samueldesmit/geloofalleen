@@ -33,7 +33,6 @@ function Nav() {
             <li onClick={handleMenu}><NavLink to="/over_mij" >Over ons</NavLink></li>
             {/* <li onClick={handleMenu}><NavLink to="/proclamaties">Proclamaties</NavLink></li> */}
             <li onClick={handleMenu}><NavLink to="/contact">Contact</NavLink></li>
-
           </ul>
         </div>
       </header>

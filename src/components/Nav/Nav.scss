@@ -14,135 +14,142 @@
     background-color: white;
     backdrop-filter: blur(2px);
   }
-}
 
-.navigation {
-  width: 100%;
-  max-width: 1440px;
-  display: flex;
-  justify-content: space-between;
-  padding: 24px;
-  align-items: center;
-  overflow: hidden;
-  z-index: 100;
-  height: 60px;
-
-  @include media('<=md') {
-    padding: 16px;
-  }
-
-  &__home-logo a {
-    text-decoration: none;
+  .navigation {
+    // font-family: "Roboto", sans-serif;
+    width: 100%;
+    max-width: 1440px;
     display: flex;
+    justify-content: space-between;
+    padding: 24px;
     align-items: center;
-    height: 100%;
-    color: white;
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-size: 30px;
+    overflow: hidden;
+    z-index: 100;
+    height: 60px;
 
     @include media('<=md') {
-      color: black;
+      padding: 16px;
     }
-  }
 
-  &__dekstop-menu {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    gap: 20px;
-
-    li a {
+    &__home-logo a {
       text-decoration: none;
+      display: flex;
+      align-items: center;
+      height: 100%;
       color: white;
+      font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      font-size: 30px;
 
       @include media('<=md') {
         color: black;
       }
     }
 
-    .active {
-      text-decoration: underline;
-    }
-
-    @include media('<=md') {
-      display: none;
-    }
-  }
-
-  &__mobile-menu {
-    display: flex;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: white;
-    justify-content: center;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in-out;
-
-    @include media('>=md') {
-      display: none;
-    }
-
-    .mobile-navigation-list {
-      list-style: none;
-      padding-top: 24px;
-      text-align: center;
+    &__dekstop-menu {
       display: flex;
-      flex-direction: column;
+      list-style: none;
+      padding: 0;
       gap: 20px;
 
       li a {
         text-decoration: none;
-        color: black;
+        color: white;
+
+        @include media('<=md') {
+          color: black;
+        }
       }
 
       .active {
         text-decoration: underline;
       }
-    }
-  }
 
-  &__mobile-menu-open {
-    transform: translateX(0);
-    z-index: 1000;
-
-    @include media('>=md') {
-      display: none;
-    }
-  }
-
-  .harburgermenu {
-    display: block;
-    cursor: pointer;
-
-    @include media('>=md') {
-      display: none;
+      @include media('<=md') {
+        display: none;
+      }
     }
 
-    &__burger {
+    &__mobile-menu {
+      display: flex;
+      right: 0;
+      top: 60px;
+      position: fixed;
+      list-style: none;
+      height: 100vh;
+      background-color: white;
+      width: 100vw;
+      justify-content: center;
+      transform: translateX(100%);
+      transition: all 0.3s ease-in-out;
+      opacity: 0.5;
+      z-index: 1000;
+
+      @include media('>=md') {
+        display: none;
+      }
+
+      .mobile-navigation-list {
+        list-style: none;
+        padding-top: 24px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        li a {
+          text-decoration: none;
+          color: black;
+        }
+
+        .active {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    &__mobile-menu-open {
+      transform: translateX(0);
+      transition: all 0.3s ease-in-out;
+      opacity: 1;
+      z-index: 1000;
+
+      @include media('>=md') {
+        display: none;
+      }
+    }
+
+    .harburgermenu {
       display: block;
-      width: 30px;
-      height: 3px;
-      background-color: black;
-      margin: 6px 0;
-      transition: transform 0.3s ease-in-out;
-    }
-  }
+      cursor: pointer;
 
-  .harburgermenu-open .harburgermenu__burger {
-    &:nth-child(1) {
-      transform: rotate(-45deg) translate(-5px, 6px);
+      @include media('>=md') {
+        display: none;
+      }
+
+      &__burger {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: black;
+        margin: 6px 0;
+        transition: 0.4s;
+        transition: all 0.3s ease-in-out;
+      }
     }
 
-    &:nth-child(2) {
-      opacity: 0;
-    }
+    .harburgermenu-open {
+      .burger {
+        transform: rotate(-45deg) translate(-7px, 6px);
+      }
 
-    &:nth-child(3) {
-      transform: rotate(45deg) translate(-5px, -6px);
+      .burger:nth-child(2) {
+        opacity: 0;
+      }
+
+      .burger:nth-child(3) {
+        transform: rotate(45deg) translate(-7px, -6px);
+      }
     }
   }
 }

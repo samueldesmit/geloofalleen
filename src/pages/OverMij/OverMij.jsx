@@ -40,8 +40,8 @@ function OverMij() {
           <div className='image-holder'>
             <img className='image-holder__image' src={Jedidja} alt="Two blue cocktails" />
           </div>
-          <div>
-            <Quote title="~ Wat andere zeggen over de kaart ~" text="" />
+          <div className='extra-title-holder'>
+            <Quote title="Ervaringen van anderen" text="" />
           </div>
           <div className='text-holder text-holder-two'>
             <p className='text-holder__text'>

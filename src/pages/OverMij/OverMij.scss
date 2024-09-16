@@ -26,6 +26,15 @@
       border-radius: 8px;
     }
 
+    .extra-title-holder {
+      grid-column: 1 / 2;
+
+      @include media(">md") {
+        grid-column: 1 / 3;
+
+      }
+    }
+
     .text-holder-two {
       grid-column: 1 / 2;
       background-color: #b87467;

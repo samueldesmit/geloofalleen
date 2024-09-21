@@ -25,7 +25,7 @@ function Home() {
         </div>
         <Quote title="~ Proclamatie ~" text="U geeft mij nieuw leven en bewaart mijn voeten voor struikelen. U zet mij op de Rots hoog boven mij, U beschermt mij en mijn baby altijd." />
 
-        <div className='home-page__inner'>
+        <div className='home-page__inner home-page__inner-last'>
           <div className='text-holder text-holder-two'>
             <h5 className='text-holder__title'>Wil meer weten?</h5>
             <Link className='text-holder__link' to="/over_mij">

@@ -14,7 +14,7 @@ function Contact() {
             <p> Heb je vragen, wil je iets delen of gewoon even praten? Stuur me een <a href="mailto:jedidjadesmit@gmail.com">mailtje</a>
               . Ik probeer altijd snel te reageren en sta voor je klaar.
             </p> <p>Ik hoor graag van je!</p><br></br>
-            <p>Zou je graag de proclamatie kaart willen bestllen (afnamen per 25) stuur dan ook een <a href="mailto:jedidjadesmit@gmail.com">mail</a></p>
+            <p>Zou je graag de proclamatie kaart willen bestellen (afnamen per 25) stuur dan ook een <a href="mailto:jedidjadesmit@gmail.com">mail</a></p>
           </div>
         </div>
       </section>

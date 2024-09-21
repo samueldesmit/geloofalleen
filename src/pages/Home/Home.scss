@@ -52,13 +52,13 @@
 
       &__text {
         font-size: 16px;
-        text-align: center;
+        // text-align: center;
       }
 
       &__link {
         color: white;
         font-size: 16px;
-        text-align: center;
+        // text-align: center;
         text-decoration: none;
         border-bottom: 1px solid #d4ad9a;
 
@@ -102,5 +102,9 @@
       }
     }
 
+  }
+
+  &__inner-last {
+    margin-bottom: 86px;
   }
 }

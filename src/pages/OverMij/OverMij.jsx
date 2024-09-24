@@ -23,12 +23,13 @@ function OverMij() {
             <h2 className='text-holder__title'>Ons  verhaal
             </h2>
             <p>
-              Ons verhaal
               Ik neem je even mee naar begin maart 2023. Wij kregen toen slecht nieuws tijdens de zwangerschap van Daniel, zijn hart bleek met 17 weken niet langer te kloppen en we moesten ons voorbereiden op een vroeggeboorte. De meeste vrouwen in deze situatie willen dan vaak graag zo snel mogelijk de bevalling laten inleiden. Maar in ons hart gebeurde er iets anders. Wij hoorden het nieuws, maar geloofden beiden dit is niet het einde. We besloten het kindje in mijn buik te laten en zijn met een groep mensen gaan bidden voor een wonder.
               In deze periode die intens was, ervoeren we ontzettend veel vrede van God en was God heel dichtbij. Allerlei verhalen over bovennatuurlijke wonderen kwamen op ons pad, Gods woord werd steeds sterker in ons hart en ons geloof groeide. Na 2 weken zette de bevalling zelf spontaan in en werd onze prachtige zoon Daniel geboren. Dit deed ontzettend veel pijn, we waren enorm verdrietig.
-              Maar één ding stond en staat nog steeds vast voor ons: God is goed en zijn Woord is waar en mist zijn uitwerking niet. Onze Daniel groeit nu op in het huis van de Heer en op een dag zullen wij hem weer zien. Ik geloof dat God ons verhaal laat meewerken ten goede voor heel veel (aanstaande) ouders, opa’s, oma’s en mensen die op welke manier dan ook betrokken zijn geraakt bij het verlies van een (ongeboren of te vroeg geboren) kindje. Het verlangen is hierdoor nog meer gegroeid zwangere vrouwen en hun partners een krachtige tool in handen te geven voor hun zwangerschap en bevalling En wij zijn ervan overtuigd dat dit tot grote zegen gaat zijn voor jullie!
+              Maar één ding stond en staat nog steeds vast voor ons: God is goed en zijn Woord is waar en mist zijn uitwerking niet. Onze Daniel groeit nu op in het huis van de Heer en op een dag zullen wij hem weer zien. Ik geloof dat God ons verhaal laat meewerken ten goede voor heel veel (aanstaande) ouders, opa’s, oma’s en mensen die op welke manier dan ook betrokken zijn geraakt bij het verlies van een (ongeboren of te vroeg geboren) kindje. Het verlangen is hierdoor nog meer gegroeid zwangere vrouwen en hun partners een krachtige tool in handen te geven voor hun zwangerschap en bevalling. En wij zijn ervan overtuigd dat dit tot grote zegen gaat zijn voor jullie!
               We bidden dat deze kaart jou helpt om Gods waarheid te proclameren en uit te bidden over jouw zwangerschap en bevalling. Zodat geloof groeit in jouw hart dat voor Hem niets onmogelijk is. En we zien uit naar vele mooie getuigenissen.
-              Heb jij een getuigenis die je graag deelt, vragen of zou je graag gebed willen? Mail hem dan naar proclamatiesvoorjou@gmail.com ( als een klik knop maken!)
+              Heb jij een getuigenis die je graag deelt, vragen of zou je graag gebed willen? <a href='mailto:proclamatiesvoorjou@gmail.com'>Mail</a>  hem dan naar <a href='mailto:proclamatiesvoorjou@gmail.com'>proclamatiesvoorjou@gmail.com </a>.
+              <br></br>
+              <br></br>
               Liefs en Gods zegen voor jouw zwangerschap en bevalling,
               <br></br>
               <br></br>
